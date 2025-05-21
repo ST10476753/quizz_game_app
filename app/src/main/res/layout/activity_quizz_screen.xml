@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_0608">
+
+    <TextView
+        android:id="@+id/Questiontxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question text"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Truebtn"
+        android:text="True"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/yellow"/>
+
+    <Button
+        android:id="@+id/Falsebtn"
+        android:text="False"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/txtFeedback"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Nextbtn"
+        android:text="Next"
+        android:enabled="false"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/yellow"/>
+</LinearLayout>
